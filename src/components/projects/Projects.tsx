@@ -13,7 +13,7 @@ export function Projects() {
         <SectionLabel index="03" title="Projects" />
         <Reveal>
           <h2 className="mt-10 max-w-2xl text-balance font-display text-4xl font-semibold leading-tight tracking-tight text-text-primary sm:text-5xl">
-            What she's built and researched.
+            What I've built and researched.
           </h2>
         </Reveal>
 

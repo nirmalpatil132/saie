@@ -20,7 +20,7 @@ export function RoleRotator({ roles }: { roles: readonly string[] }) {
   }
 
   return (
-    <span className="relative inline-block h-[1.2em] min-w-[14ch] align-bottom">
+    <span className="inline-block align-bottom">
       <AnimatePresence mode="wait">
         <motion.span
           key={roles[index]}
@@ -28,7 +28,7 @@ export function RoleRotator({ roles }: { roles: readonly string[] }) {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -16 }}
           transition={{ duration: 0.45, ease: EASE_PREMIUM }}
-          className="absolute left-0 top-0 text-accent"
+          className="inline-block text-accent"
         >
           {roles[index]}
         </motion.span>

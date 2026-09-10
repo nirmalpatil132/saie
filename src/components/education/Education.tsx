@@ -11,7 +11,7 @@ export function Education() {
         <SectionLabel index="05" title="Education" />
         <Reveal>
           <h2 className="mt-10 max-w-2xl text-balance font-display text-4xl font-semibold leading-tight tracking-tight text-text-primary sm:text-5xl">
-            Her academic path so far.
+            My academic path so far.
           </h2>
         </Reveal>
 

@@ -68,7 +68,7 @@ export const skillCategories: SkillCategory[] = [
   {
     id: "research",
     title: "Research & Workflow",
-    description: "Grounded in her final-year research project on deceptive UI.",
+    description: "Grounded in my final-year research project on deceptive UI.",
     skills: [
       { name: "Taxonomy & Classification", level: "working" },
       { name: "Requirements Analysis", level: "working" },

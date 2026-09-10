@@ -24,8 +24,8 @@ export function Contact() {
             </Reveal>
             <Reveal delay={0.08}>
               <p className="mt-6 max-w-md text-balance text-lg leading-relaxed text-text-secondary">
-                Open to internships, collaborative projects, and conversations about research,
-                development, or entrepreneurship. Reach out directly — she reads everything.
+                I'm open to internships, collaborative projects, and conversations about research,
+                development, or entrepreneurship. Reach out directly — I read everything.
               </p>
             </Reveal>
 

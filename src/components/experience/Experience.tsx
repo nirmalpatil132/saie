@@ -11,7 +11,7 @@ export function Experience() {
         <SectionLabel index="02" title="Experience" />
         <Reveal>
           <h2 className="mt-10 max-w-2xl text-balance font-display text-4xl font-semibold leading-tight tracking-tight text-text-primary sm:text-5xl">
-            Where she's applied what she's learning.
+            Where I've applied what I'm learning.
           </h2>
         </Reveal>
 

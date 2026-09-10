@@ -68,7 +68,7 @@ export function ContactForm() {
       <div className="flex flex-col items-center gap-3 rounded-2xl border border-accent/30 bg-surface p-10 text-center">
         <CheckCircle2 className="text-accent" size={32} />
         <p className="font-display text-lg font-semibold text-text-primary">Message sent.</p>
-        <p className="text-sm text-text-secondary">Thanks for reaching out — Saie will get back to you soon.</p>
+        <p className="text-sm text-text-secondary">Thanks for reaching out — I'll get back to you soon.</p>
         <Button variant="secondary" className="mt-2" onClick={() => setState("idle")}>
           Send another message
         </Button>

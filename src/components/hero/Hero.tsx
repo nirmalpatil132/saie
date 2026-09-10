@@ -43,7 +43,7 @@ export function Hero() {
 
           <motion.p
             variants={item}
-            className="mt-6 font-display text-2xl font-medium text-text-secondary sm:text-3xl"
+            className="mt-6 font-display text-2xl font-medium text-text-secondary sm:text-3xl lg:text-2xl"
           >
             <RoleRotator roles={profile.roles} />
           </motion.p>

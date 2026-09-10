@@ -18,7 +18,7 @@ export function Skills() {
         <div className="mt-10 flex flex-wrap items-end justify-between gap-6">
           <Reveal>
             <h2 className="max-w-2xl text-balance font-display text-4xl font-semibold leading-tight tracking-tight text-text-primary sm:text-5xl">
-              Tools she reaches for, honestly labeled.
+              Tools I reach for, honestly labeled.
             </h2>
           </Reveal>
           <Reveal delay={0.1}>

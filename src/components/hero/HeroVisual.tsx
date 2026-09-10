@@ -1,10 +1,12 @@
 import { motion } from "framer-motion";
 import { usePrefersReducedMotion } from "@/hooks/usePrefersReducedMotion";
+import { ProfilePhoto } from "./ProfilePhoto";
 
 /**
- * Generative abstract portrait placeholder — stands in until a real
- * photograph is added at /public/images/profile.jpg. Swap this component's
- * contents for an <img> once that asset exists.
+ * Renders Saie's real photo (see ProfilePhoto) inside a circular frame with
+ * orbiting rings and floating chips. Falls back to a generative abstract
+ * placeholder — gradient, line art, monogram — if no photo is present yet
+ * at public/images/profile.{jpg,jpeg,png,webp}.
  */
 export function HeroVisual() {
   const reducedMotion = usePrefersReducedMotion();
@@ -28,36 +30,43 @@ export function HeroVisual() {
       </motion.div>
 
       {/* Core frame */}
-      <div className="absolute inset-10 overflow-hidden rounded-full border border-border-strong bg-surface">
-        <div
-          className="absolute inset-0"
-          style={{
-            background:
-              "radial-gradient(circle at 35% 25%, rgba(255,107,82,0.25), transparent 55%), radial-gradient(circle at 70% 75%, rgba(155,140,255,0.22), transparent 55%)",
-          }}
+      <div className="absolute inset-10 aspect-square overflow-hidden rounded-full border border-border-strong bg-surface">
+        <ProfilePhoto
+          className="h-full w-full object-cover"
+          fallback={
+            <>
+              <div
+                className="absolute inset-0"
+                style={{
+                  background:
+                    "radial-gradient(circle at 35% 25%, rgba(255,107,82,0.25), transparent 55%), radial-gradient(circle at 70% 75%, rgba(155,140,255,0.22), transparent 55%)",
+                }}
+              />
+              <svg viewBox="0 0 200 200" className="absolute inset-0 h-full w-full opacity-70">
+                <defs>
+                  <linearGradient id="hero-line" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stopColor="var(--color-accent)" />
+                    <stop offset="100%" stopColor="var(--color-accent-secondary)" />
+                  </linearGradient>
+                </defs>
+                <path
+                  d="M20 140 C 60 100, 60 60, 100 60 S 150 100, 180 70"
+                  fill="none"
+                  stroke="url(#hero-line)"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  opacity="0.6"
+                />
+                <circle cx="100" cy="100" r="46" fill="none" stroke="var(--color-border-strong)" strokeWidth="1" />
+              </svg>
+              <div className="absolute inset-0 flex items-center justify-center">
+                <span className="font-display text-6xl font-semibold tracking-tight text-text-primary/90">
+                  SJ
+                </span>
+              </div>
+            </>
+          }
         />
-        <svg viewBox="0 0 200 200" className="absolute inset-0 h-full w-full opacity-70">
-          <defs>
-            <linearGradient id="hero-line" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0%" stopColor="var(--color-accent)" />
-              <stop offset="100%" stopColor="var(--color-accent-secondary)" />
-            </linearGradient>
-          </defs>
-          <path
-            d="M20 140 C 60 100, 60 60, 100 60 S 150 100, 180 70"
-            fill="none"
-            stroke="url(#hero-line)"
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            opacity="0.6"
-          />
-          <circle cx="100" cy="100" r="46" fill="none" stroke="var(--color-border-strong)" strokeWidth="1" />
-        </svg>
-        <div className="absolute inset-0 flex items-center justify-center">
-          <span className="font-display text-6xl font-semibold tracking-tight text-text-primary/90">
-            SJ
-          </span>
-        </div>
         <div className="grain-overlay" style={{ opacity: 0.06 }} />
       </div>
 

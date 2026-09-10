@@ -20,20 +20,19 @@ export function About() {
           <div className="space-y-6">
             <Reveal delay={0.05}>
               <p className="text-balance text-lg leading-relaxed text-text-secondary">
-                Saie is a Computer Science Engineering student who likes problems that need
+                I'm a Computer Science Engineering student who likes problems that need
                 structure before they need code — mapping out a data flow, sketching a UML
                 model, or defining a taxonomy before a single line is written. That instinct
-                shows up across her project work, from full-stack builds to a final-year
+                shows up across my project work, from full-stack builds to a final-year
                 research project on deceptive interface design.
               </p>
             </Reveal>
             <Reveal delay={0.1}>
               <p className="text-balance text-lg leading-relaxed text-text-secondary">
-                She's equally comfortable behind a keyboard and in front of a room —
-                having led corporate outreach for her college's Entrepreneurship Cell and
-                coordinated cross-functional teams for campus-wide tech events. That mix of
-                technical depth and people-facing leadership is what she brings to every
-                team she joins.
+                I'm equally comfortable behind a keyboard and in front of a room — I've led
+                corporate outreach for my college's Entrepreneurship Cell and coordinated
+                cross-functional teams for campus-wide tech events. That mix of technical
+                depth and people-facing leadership is what I bring to every team I join.
               </p>
             </Reveal>
 

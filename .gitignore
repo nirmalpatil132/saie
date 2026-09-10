@@ -16,6 +16,9 @@ dist-ssr
 # Original source documents (already copied into public/ as real assets)
 assets_source/
 
+# Local Claude Code state
+.claude/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

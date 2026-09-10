@@ -33,14 +33,14 @@ export const projects: Project[] = [
       problem:
         "Dark patterns — interface designs that manipulate users into decisions like unwanted subscriptions or hidden costs — are widespread but hard to catch systematically, since most detection today relies on manual review with no shared, rigorous classification.",
       approach:
-        "The team split the problem into research and engineering tracks. Saie led the research side: building a taxonomy of dark pattern categories from existing literature and real-world examples, translating that taxonomy into concrete detection requirements, and designing the annotation process used to label sample interfaces consistently.",
-      role: "Saie's ownership on this project centers on taxonomy and requirements: research and classification of dark pattern types, requirements definition, the annotation process, test design, behavioural validation of flagged patterns, documentation, the experiment log, and demo coordination. The detection tooling itself is a shared team effort with Nirmal and Madhura.",
+        "We split the problem into research and engineering tracks. I led the research side: building a taxonomy of dark pattern categories from existing literature and real-world examples, translating that taxonomy into concrete detection requirements, and designing the annotation process used to label sample interfaces consistently.",
+      role: "My ownership on this project centers on taxonomy and requirements: research and classification of dark pattern types, requirements definition, the annotation process, test design, behavioural validation of flagged patterns, documentation, the experiment log, and demo coordination. The detection tooling itself is a shared team effort with Nirmal and Madhura.",
       howItWorks:
         "The taxonomy defines categories of deceptive UI (e.g. confirmshaming, forced continuity, hidden costs). Interfaces are annotated against these categories, detection requirements are derived from the annotated set, and candidate detections are behaviourally validated to check whether they actually mislead users rather than just resembling a pattern superficially.",
       challenges:
         "Drawing a clean line between legitimate persuasive design and genuinely deceptive UI proved to be the hardest part — many patterns exist on a spectrum, which made the taxonomy and annotation guidelines need several rounds of refinement to stay consistent across annotators.",
       learning:
-        "This project sharpened Saie's research discipline — building a taxonomy that other people can apply consistently is a very different skill from writing code, and it demanded precise documentation, a maintained experiment log, and clear communication to keep a 3-person team aligned on ambiguous, judgment-heavy classification work.",
+        "This project sharpened my research discipline — building a taxonomy that other people can apply consistently is a very different skill from writing code, and it demanded precise documentation, a maintained experiment log, and clear communication to keep our 3-person team aligned on ambiguous, judgment-heavy classification work.",
     },
     verified: true,
   },
@@ -74,13 +74,13 @@ export const projects: Project[] = [
         "Entrepreneurship education for secondary school students is often abstract and lecture-driven, which makes it hard to hold attention or build practical intuition for how business decisions actually play out.",
       approach:
         "BizHub's architecture combines gamification — turning entrepreneurial decisions into interactive challenges — with AI-driven personalization that adapts difficulty and content to each learner's progress.",
-      role: "Saie's documented contribution to BizHub is on the research side, working within the project team to help ground the platform's gamified learning approach and personalization concepts. She was not the sole or primary technical architect of the system.",
+      role: "My contribution to BizHub was on the research side, working within the project team to help ground the platform's gamified learning approach and personalization concepts. I wasn't the sole or primary technical architect of the system.",
       howItWorks:
         "Learners progress through gamified entrepreneurship challenges; an AI-driven layer is designed to adapt the difficulty and focus of content based on how each learner performs, aiming to keep engagement high without sacrificing educational depth.",
       challenges:
         "Balancing genuine educational rigor against game-like engagement is a persistent tension in gamified learning design — mechanics that are fun can easily dilute the entrepreneurial concepts they're meant to teach.",
       learning:
-        "Working on BizHub built Saie's understanding of how AI-driven personalization is framed at the architecture level, and reinforced how research and instructional design decisions need to work hand-in-hand with technical implementation in an educational product.",
+        "Working on BizHub built my understanding of how AI-driven personalization is framed at the architecture level, and reinforced how research and instructional design decisions need to work hand-in-hand with technical implementation in an educational product.",
     },
     verified: true,
   },
@@ -108,8 +108,8 @@ export const projects: Project[] = [
       problem:
         "The Swachh Nagar Nigam Challenge needed a public-facing platform to communicate structured cleanliness workflows and mentor information clearly to a broad audience.",
       approach:
-        "The team architected a responsive full-stack platform, with Saie spearheading the mentor information components — building them as dynamic, modular pieces rather than static, hard-coded sections.",
-      role: "Saie led development of the mentor information components, focusing on load efficiency and cross-device accessibility, while collaborating with the broader engineering team using Git for version control.",
+        "Our team architected a responsive full-stack platform, and I spearheaded the mentor information components — building them as dynamic, modular pieces rather than static, hard-coded sections.",
+      role: "I led development of the mentor information components, focusing on load efficiency and cross-device accessibility, while collaborating with the broader engineering team using Git for version control.",
       howItWorks:
         "The platform presents cleanliness-focused public workflows and mentor information through modular, responsive components designed to work smoothly across device sizes.",
       learning:
@@ -141,12 +141,12 @@ export const projects: Project[] = [
       problem:
         "Before writing code for an enterprise-scale auction system, the team needed a rigorous specification that eliminated architectural ambiguity and dependency conflicts across modules.",
       approach:
-        "Saie authored detailed Software Requirement Specifications alongside multi-level Data Flow Diagrams, and designed UML structural assets — including sequence and use-case models — to guide the engineering cohort's agile iterations.",
-      role: "Primary author of the SRS, DFDs, and UML modeling assets that directed a 6-member engineering cohort's implementation work.",
+        "I authored detailed Software Requirement Specifications alongside multi-level Data Flow Diagrams, and designed UML structural assets — including sequence and use-case models — to guide the engineering cohort's agile iterations.",
+      role: "I was the primary author of the SRS, DFDs, and UML modeling assets that directed a 6-member engineering cohort's implementation work.",
       howItWorks:
         "The specification decomposes the auction system into validated data flows and structural models, giving the engineering cohort a shared, unambiguous reference for building each module.",
       learning:
-        "This project deepened Saie's fluency in translating a complex system into precise, structured documentation that a full team can build from without conflicting assumptions.",
+        "This project deepened my fluency in translating a complex system into precise, structured documentation that a full team can build from without conflicting assumptions.",
     },
     verified: true,
   },

@@ -4,9 +4,9 @@ export const profile = {
   title: "Computer Science Engineer",
   location: "Kolhapur, Maharashtra, India",
   eyebrow: "Computer Science • Builder • Researcher",
-  tagline: "Turning ideas into thoughtful digital experiences.",
+  tagline: "I turn ideas into thoughtful digital experiences.",
   summary:
-    "Computer Science Engineering student and aspiring full-stack developer, working across responsive interfaces, backend fundamentals, and structured software documentation — with a growing focus on research-driven, AI-aware systems.",
+    "I'm a Computer Science Engineering student and aspiring full-stack developer, working across responsive interfaces, backend fundamentals, and structured software documentation — with a growing focus on research-driven, AI-aware systems.",
   roles: [
     "Software Developer",
     "Problem Solver",
@@ -33,25 +33,25 @@ export const identityStatements = [
     id: "build",
     label: "Build",
     description:
-      "Ships responsive, well-structured interfaces and backend logic grounded in object-oriented fundamentals.",
+      "I ship responsive, well-structured interfaces and backend logic grounded in object-oriented fundamentals.",
   },
   {
     id: "research",
     label: "Research",
     description:
-      "Enjoys taxonomy work, requirement analysis, and turning ambiguous problems into structured investigations.",
+      "I enjoy taxonomy work, requirement analysis, and turning ambiguous problems into structured investigations.",
   },
   {
     id: "learn",
     label: "Learn",
     description:
-      "Treats every project — coursework or personal — as a chance to close a specific skill gap.",
+      "I treat every project — coursework or personal — as a chance to close a specific skill gap.",
   },
   {
     id: "collaborate",
     label: "Collaborate",
     description:
-      "Has led cross-functional teams and coordinated multi-person projects from requirements to demo.",
+      "I've led cross-functional teams and coordinated multi-person projects from requirements to demo.",
   },
 ] as const;
 
