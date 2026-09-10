@@ -1,4 +1,5 @@
 import { useState, type ReactNode } from "react";
+import { withBase } from "@/lib/paths";
 
 /**
  * Renders Saie's real profile photo when present at one of the candidate
@@ -7,10 +8,10 @@ import { useState, type ReactNode } from "react";
  * (any of the extensions below also work) and it appears automatically.
  */
 const CANDIDATE_PATHS = [
-  "/images/profile.jpg",
-  "/images/profile.jpeg",
-  "/images/profile.png",
-  "/images/profile.webp",
+  withBase("images/profile.jpg"),
+  withBase("images/profile.jpeg"),
+  withBase("images/profile.png"),
+  withBase("images/profile.webp"),
 ];
 
 export function ProfilePhoto({

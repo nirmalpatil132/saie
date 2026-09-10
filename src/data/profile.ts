@@ -1,3 +1,5 @@
+import { withBase } from "@/lib/paths";
+
 export const profile = {
   name: "Saie Jadhav",
   firstName: "Saie",
@@ -16,7 +18,7 @@ export const profile = {
   email: "saie.jadhav2108@gmail.com",
   /** Real asset present at /Saie-Jadhav-Resume.pdf (sourced from her CV). */
   resumeAvailable: true,
-  resumeHref: "/Saie-Jadhav-Resume.pdf",
+  resumeHref: withBase("Saie-Jadhav-Resume.pdf"),
 } as const;
 
 export const currentFocus = {

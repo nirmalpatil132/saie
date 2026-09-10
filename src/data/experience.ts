@@ -1,3 +1,4 @@
+import { withBase } from "@/lib/paths";
 import type { ExperienceEntry } from "./types";
 
 export const experience: ExperienceEntry[] = [
@@ -19,7 +20,7 @@ export const experience: ExperienceEntry[] = [
     tags: ["AI Software Development", "Documentation", "Testing", "Teamwork"],
     link: {
       label: "View certificate",
-      href: "/certificates/Techspot-Infotech-Internship-Certificate.pdf",
+      href: withBase("certificates/Techspot-Infotech-Internship-Certificate.pdf"),
     },
     verified: true,
   },
